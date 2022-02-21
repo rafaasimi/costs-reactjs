@@ -13,6 +13,16 @@
     margin-top: 1rem;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #0083b0;
+}
+
 .socials {
   display: flex;
   gap: 1rem;

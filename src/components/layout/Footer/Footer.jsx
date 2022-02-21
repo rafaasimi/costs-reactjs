@@ -4,7 +4,6 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={styles.footer}>
-        
       <div className={styles.socials}>
         <a href="https://rafaelsimionato.dev/" target="_new">
           <FaGlobeAmericas />
@@ -18,7 +17,11 @@ function Footer() {
       </div>
 
       <div>
-        <p>Desenvolvido por: Rafael Simionato</p>
+        <p>
+          Desenvolvido por: <a href="https://github.com/rafaasimi" target="_new">
+            Rafael Simionato
+          </a>
+        </p>
       </div>
     </footer>
   );
