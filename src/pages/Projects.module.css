@@ -1,0 +1,29 @@
+.projectContainer {
+  padding: 2rem;
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.titleContainer h1 {
+    position: relative;
+}
+
+.titleContainer h1::before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    content: '';
+    width: 5px;
+    height: 100%;
+    background-color: #0083b0;
+}
+
+.titleContainer a {
+    height: fit-content;
+}
