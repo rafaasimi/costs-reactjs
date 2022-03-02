@@ -1,14 +1,14 @@
-import styles from './Loader.module.css'
+import styles from './Loading.module.css'
 import loaderImg from "../../../assets/loading.png";
 
-function Loader() {
+function Loading() {
   return (
     <>
-      <div className={styles.loader}>
+      <div className={styles.loadingContainer}>
         <img src={loaderImg} alt="Carregando..." />
       </div>
     </>
   );
 }
 
-export default Loader;
+export default Loading;
