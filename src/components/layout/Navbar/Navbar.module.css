@@ -30,7 +30,7 @@
 
 .navbar li a::after {
   position: absolute;
-  top: 56px;
+  top: 67px;
   display: block;
   content: "";
   height: 5px;
